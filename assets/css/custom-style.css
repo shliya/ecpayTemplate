@@ -102,21 +102,21 @@ h3 {
 }
 
 .link_one {
-  background: url("../images/beeQ.png") rgb(255, 209, 217) no-repeat center center;
+  background: url("../images/") rgb(255, 209, 217) no-repeat center center;
   background-size: 130%;
 }
 
 .link_two {
-  background: url("../images/Irisa.png") rgb(255, 209, 217) no-repeat center center;
+  background: url("../images/") rgb(255, 209, 217) no-repeat center center;
   background-size: 100%;
 }
 
 .link_three {
-  background: url("../images/sssssss.png") rgb(255, 209, 217) no-repeat center center;
+  background: url("../images/") rgb(255, 209, 217) no-repeat center center;
   background-size: 100%;
 }
 
 .link_four {
-  background: url("./assets/舒肥只有雞.png") #ffffff no-repeat center center;
+  background: url("./assets/") #ffffff no-repeat center center;
   background-size: 160%;
 }
