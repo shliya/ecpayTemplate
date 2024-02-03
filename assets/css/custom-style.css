@@ -1,0 +1,122 @@
+@font-face {
+  font-family: Gentium;
+  src: url(../font/清松手寫體1.ttf);
+}
+.cutefont {
+  font-family: Gentium, serif;
+}
+h4 {
+  font-family: Gentium, serif;
+}
+h3 {
+  font-family: Gentium, serif;
+}
+
+.mask {
+  width: 65%;
+  height: 95%;
+  background-color: gray;
+  background-size: cover;
+  -webkit-mask: url(../images/socialLogo/toMango.png) no-repeat center center;
+  mask: url(../images/socialLogo/toMango.png) no-repeat center center;
+  /* -webkit-mask-size: contain; */
+  position: absolute;
+  z-index: 1;
+}
+
+.container-float {
+  display: block;
+  margin: auto;
+  position: fixed;
+  line-height: 40px;
+  border-radius: 5px;
+  right: 5px;
+  bottom: 5px;
+  width: 250px;
+  height: 250px;
+  z-index: 99;
+}
+.menu_opener {
+  display: none;
+}
+
+.menu_opener:checked ~ .link_one {
+  top: 80px;
+  left: 190px;
+}
+
+.menu_opener:checked ~ .link_two {
+  left: 110px;
+  top: 110px;
+}
+
+.menu_opener:checked ~ .link_three {
+  left: 90px;
+  top: 190px;
+}
+
+.menu_opener:checked ~ .link_four {
+  left: 65px;
+}
+
+.menu_opener:checked ~ .barre_hamburger {
+  opacity: 0;
+}
+
+.menu_opener:checked ~ .menu_opener_label:after {
+  transform: rotate(45deg);
+  top: 70px;
+}
+
+.menu_opener:checked ~ .menu_opener_label:before {
+  transform: rotate(-45deg);
+  top: 70px;
+}
+
+.menu_opener_label {
+  background: #ffffff;
+  width: 65px;
+  height: 65px;
+  display: block;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: 10;
+  background: url("") rgb(255, 209, 217) no-repeat center center;
+  background-size: 100%;
+}
+
+.link_general {
+  width: 65px;
+  height: 65px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  background: #ecf0f1;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.link_one {
+  background: url("../images/beeQ.png") rgb(255, 209, 217) no-repeat center center;
+  background-size: 130%;
+}
+
+.link_two {
+  background: url("../images/Irisa.png") rgb(255, 209, 217) no-repeat center center;
+  background-size: 100%;
+}
+
+.link_three {
+  background: url("../images/sssssss.png") rgb(255, 209, 217) no-repeat center center;
+  background-size: 100%;
+}
+
+.link_four {
+  background: url("./assets/舒肥只有雞.png") #ffffff no-repeat center center;
+  background-size: 160%;
+}

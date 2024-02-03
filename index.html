@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="desctiption" content="2024-02-02-練習" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assect/css/style.css" />
+    <link rel="stylesheet" href="./assect/css/custom-style.css" />
+  </head>
+
+  <body>
+    <div id="home" class="body-content bg-cover">
+      <div class="container">
+        <div class="row justify-content-center" style="padding-top: 120px">
+          <div class="col-lg-8 align-self-center">
+            <div class="user-input-content text-center">
+              <h2 class="story-content">
+                <p id="nickname-title" style="margin-right: 24rem"></p>
+                <input
+                  id="nickname"
+                  class="input-box"
+                  enterkeyhint="enter"
+                  placeholder="你是...."
+                  type="text"
+                  inputmode="text"
+                  value=""
+                />
+              </h2>
+            </div>
+
+            <div class="user-input-content text-center">
+              <h2 class="story-content">
+                <p id="message-title" style="margin-right: 20rem"></p>
+                <input
+                  id="message"
+                  class="input-box"
+                  enterkeyhint="enter"
+                  placeholder="有話快縮!!!!"
+                  type="text"
+                  inputmode="text"
+                  value=""
+                />
+              </h2>
+            </div>
+
+            <div class="user-input-content text-center">
+              <h2 class="story-content">
+                <p id="amount-title" style="margin-right: 20rem"></p>
+                <input
+                  id="amount"
+                  class="input-box"
+                  enterkeyhint="enter"
+                  placeholder="$100"
+                  type="number"
+                  inputmode="numeric"
+                  value=""
+                />
+              </h2>
+            </div>
+
+            <div class="user-submit-content text-center">
+              <h2 class="story-content-submit">
+                <button id="payMoney" onclick="submitBtn()">給我錢</button>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-float">
+      <input type="checkbox" id="menu_opener_id" class="menu_opener" /><label
+        for="menu_opener_id"
+        class="menu_opener_label"
+      ></label>
+      <div class="barre_hamburger"></div>
+      <a href="#" class="link_one link_general"></a
+      ><a href="#" class="link_two link_general"></a
+      ><a href="#" class="link_three link_general"></a>
+    </div>
+  </body>
+
+  <script src="./assect/js/main.js"></script>
+</html>
